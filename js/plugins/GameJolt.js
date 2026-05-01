@@ -251,16 +251,7 @@ function GameJoltBase() //And boom, everything is out of the global namespace.
 
 	GameJolt.loginRedirect = function()
 	{
-		if (never_redirect) return;
-
-		try
-		{
-			window.location.href = "js/plugins/GameJoltLogin.html?p=" + (window.btoa("redirect_to=" + encodeURIComponent(window.location.pathname) + "&gameid=" + gameID + "&private_key=" + privateKey).replace(/=/g, "~"));
-		}
-		catch (error)
-		{
-			console.log("We couldn't redirect the user to the login screen. Error: " + error);
-		}
+    	return; // disabled
 	}
 
 	GameJolt.login = function(uname, utoken)
