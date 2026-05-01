@@ -1,0 +1,11 @@
+﻿{
+	"actordamage": "%1 lost %2 Restraint!",
+	"enemydamage": "%1's Affection rose by %2!",
+	"actorrecover": "%1 gained about %3 Restraint!",
+	"enemyrecovery": "%1's Affection dropped by about %3...",
+	"victory": "%1 finished the date!",
+	"defeat": "%1 left the date...",
+	"HP": "Restraint",
+	"HP2": "RT",
+	"MaxHealth": "Max Restraint"
+}

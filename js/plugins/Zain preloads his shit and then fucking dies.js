@@ -1,0 +1,33 @@
+
+(function() {
+/*
+    ImageManager.loadPicture('cc_fnafb1');
+    ImageManager.loadPicture('cc_fnafb2');
+    ImageManager.loadPicture('cc_fnafb2wbon');
+    ImageManager.loadPicture('cc_fnafb2wchic');
+    ImageManager.loadPicture('cc_fnafb2wfred');
+    ImageManager.loadPicture('cc_fnafb3');
+    ImageManager.loadPicture('cc_fnafba');
+    ImageManager.loadPicture('cc_fnafbf');
+    ImageManager.loadPicture('cc_setup');
+    ImageManager.loadPicture('cc_extra');
+    ImageManager.loadPicture('cc_load');
+    ImageManager.loadPicture('cc_options');
+    ImageManager.loadPicture('coward');
+    ImageManager.loadPicture('fnafb1image');
+    ImageManager.loadPicture('fnafb1image2');
+    ImageManager.loadPicture('fnafb1image3');
+    ImageManager.loadPicture('fnafb1titleoverlay');
+    ImageManager.loadPicture('fnafb2image');
+    ImageManager.loadPicture('fnafb2image2');
+    ImageManager.loadPicture('fnafb2titleoverlay');
+    ImageManager.loadPicture('fnafb3image');
+    ImageManager.loadPicture('fnafb3image2');
+    ImageManager.loadPicture('fnafb3titleoverlay');
+    ImageManager.loadPicture('titleselect');
+    ImageManager.loadPicture('titleselectfnafb1');
+    ImageManager.loadPicture('titleselectfnafb2');
+    ImageManager.loadPicture('titleselectfnafb3');
+    ImageManager.loadPicture('ScanlinesThick');
+*/
+})();

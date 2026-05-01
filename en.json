@@ -1,0 +1,11 @@
+﻿{
+	"actordamage": "%1 took %2 damage!",
+	"enemydamage": "%1 took %2 damage!",
+	"actorrecover": "%1 recovered %3 %2!",
+	"enemyrecovery": "%1 recovered %3 %2!",
+	"victory": "%1 won the battle!",
+	"defeat": "%1 fucked up...",
+	"HP": "HP",
+	"HP2": "HP",
+	"MaxHealth": "Max Health"
+}
