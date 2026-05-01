@@ -103,7 +103,7 @@ function GameJoltBase() //And boom, everything is out of the global namespace.
 	//Values
 	var base_uri = "http://gamejolt.com/api/game/v1/";
 	var parameters = PluginManager.parameters("GameJolt");
-	var shouldAskLogin = parameters["Login on start"] == "true";
+	var shouldAskLogin = false;
 	var gameID = parameters["Game ID"];
 	var privateKey = parameters["Private Key"];
 	var useMainMenuButton = parameters["Add button to main menu"] == "true";
@@ -115,7 +115,7 @@ function GameJoltBase() //And boom, everything is out of the global namespace.
 	var notificationLayer = null, notificationLayerReferenceCount = 0;
 
 	//Vars
-	var loggedIn = true, loggingIn = false, username = "", usertoken = "";
+	var loggedIn = false, loggingIn = false, username = "", usertoken = "";
 	var shouldHaveOpenSession = false;
 	var onlineTrophies = [];
 
@@ -790,4 +790,4 @@ function GameJoltBase() //And boom, everything is out of the global namespace.
 }
 
 GameJoltBase(); //Call base function.
-GameJolt.init(); //Call init function
+// GameJolt.init(); //Disabled - no login prompt
