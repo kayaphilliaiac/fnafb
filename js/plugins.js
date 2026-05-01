@@ -100,7 +100,7 @@ var $plugins =
 {"name":"HIME_EndPhaseTriggers","status":true,"description":"Checks whether there are any events to run before ending the\r\nbattle.","parameters":{}},
 {"name":"LastUsedItem","status":true,"description":"Stores the ID of the skill or item which is used last.","parameters":{"Variable ID 1":"238","Variable ID 2":"0"}},
 {"name":"YSP_Preloader","status":true,"description":"v1.0.1 Plugin used to preload assets.","parameters":{}},
-{"name":"GameJolt","status":false,"description":"Use the GameJolt API in your RPG Maker MV game.","parameters":{"Game ID":"532194","Private Key":"261b4f130ec9ee3b5b38c3a8daea2781","Login on start":"true","Add button to main menu":"false","Show notifications":"true","Trophy notification text":"Trophy Obtained"}},
+{"name":"GameJolt","status":true,"description":"Use the GameJolt API in your RPG Maker MV game.","parameters":{"Game ID":"532194","Private Key":"261b4f130ec9ee3b5b38c3a8daea2781","Login on start":"true","Add button to main menu":"false","Show notifications":"true","Trophy notification text":"Trophy Obtained"}},
 {"name":"MenuPlaytime","status":true,"description":"Provides a playtime window for your menu. Works with Yanfly Engine Plugins.","parameters":{}},
 {"name":"YEP_SlipperyTiles","status":true,"description":"v1.05 You can create slippery tiles by marking them with\neither a terrain tag or a region number.","parameters":{"Slippery Frame":"2","Slippery Region":"248","Slippery Speed":"0"}}
 ];

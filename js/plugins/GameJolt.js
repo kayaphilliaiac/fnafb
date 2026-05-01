@@ -115,7 +115,7 @@ function GameJoltBase() //And boom, everything is out of the global namespace.
 	var notificationLayer = null, notificationLayerReferenceCount = 0;
 
 	//Vars
-	var loggedIn = false, loggingIn = false, username = "", usertoken = "";
+	var loggedIn = true, loggingIn = false, username = "", usertoken = "";
 	var shouldHaveOpenSession = false;
 	var onlineTrophies = [];
 
